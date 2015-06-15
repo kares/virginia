@@ -4,7 +4,7 @@ require 'virginia'
 ENV['AHN_ENV'] = 'test'
 
 RSpec.configure do |config|
-  config.color_enabled = true
+  config.color = true
   config.tty = true
 
   config.filter_run :focus => true
